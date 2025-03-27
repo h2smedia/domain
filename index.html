@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="https://schema.org/WebPage">
+<head>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How2Shout Calculators | Free Online Tools for Developers & Analysts</title>
+    <meta name="description" content="Accurate calculators for finance, coding, and productivity. Calculate margins, API response times, salaries, and more with our free tools.">
+    <meta name="keywords" content="online calculator, margin calculator, salary calculator, coding tools, API calculator, free financial tools">
+    
+    <!-- Canonical & Social Meta -->
+    <link rel="canonical" href="https://www.how2shout.com/calculators">
+    <meta property="og:title" content="How2Shout Calculators | Free Tech Tools">
+    <meta property="og:description" content="Precision calculators for developers and analysts">
+    <meta property="og:url" content="https://www.how2shout.com/calculators">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.how2shout.com/images/calculator-social-preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How2Shout Calculators">
+    <meta name="twitter:description" content="Free online tools for developers and financial analysts">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Skip to Content Link (Accessibility) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header -->
+    <header class="glass-header" itemprop="headline">
+        <div class="container">
+            <h1><i class="fas fa-calculator" aria-hidden="true"></i> <span itemprop="name">How2Shout Calculators</span></h1>
+            <p itemprop="description">Precision tools for developers, traders, and analysts</p>
+            <div class="search-box" role="search">
+                <input type="text" placeholder="Search calculators..." aria-label="Search calculators" id="searchInput">
+                <button aria-label="Search"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="container" itemprop="mainContentOfPage">
+        <!-- Category Navigation -->
+        <nav class="category-filter" aria-label="Calculator categories">
+            <div class="filter-group">
+                <button class="filter-btn active" data-category="all">All Calculators</button>
+                <button class="filter-btn" data-category="finance">Finance</button>
+                <button class="filter-btn" data-category="development">Development</button>
+                <button class="filter-btn" data-category="productivity">Productivity</button>
+            </div>
+        </nav>
+
+        <!-- Calculator Grid -->
+        <div class="calculator-grid" id="calculatorGrid" itemscope itemtype="https://schema.org/ItemList">
+            <!-- Calculators injected via JavaScript -->
+        </div>
+
+        <!-- FAQ Schema Section -->
+        <section class="faq-section" itemscope itemtype="https://schema.org/FAQPage">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">How accurate are these calculators?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">Our calculators use industry-standard formulas and are regularly updated for accuracy.</p>
+                </div>
+            </div>
+            <!-- More FAQ items can be added here -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer" itemprop="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span itemprop="copyrightYear">2023</span> <span itemprop="copyrightHolder">How2Shout Calculators</span>. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://twitter.com/how2shout" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/how2shout" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/company/how2shout" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+                <a href="/contact">Contact Us</a>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
+
+</body>
+</html>
